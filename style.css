@@ -15,12 +15,12 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
 }
 
 body {
   box-sizing: border-box;
   font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* END BOILERPLATE CODE*/
@@ -55,6 +55,46 @@ a {
     color: #F9FAF8;
     font-size: 2rem;
     font-weight: bolder;
+}
+
+.hero { 
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 55rem;
+}
+
+.hero-container { 
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 3rem;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+}
+
+.hero-heading {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.hero-text {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.hero-button {
+    border-radius: 1rem;
+    padding: 8px 36px;
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 .spacer {
