@@ -22,3 +22,23 @@ body {
 
 /* END BOILERPLATE CODE*/
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.header {
+    color: #F9FAF8;
+}
