@@ -29,6 +29,12 @@ a {
     text-decoration: none;
 }
 
+.spacer {
+    width: 75%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
 .navbar {
     background-color: #1F2937;
     height: 6rem;
@@ -97,8 +103,37 @@ a {
     font-weight: 800;
 }
 
-.spacer {
-    width: 75%;
-    max-width: 120rem;
-    margin: 0 auto;
+.information {
+    border: black solid 2px;
+    height: 55rem;
+}
+
+.information-container {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.info-heading {
+    font-size: 3rem;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.item-img {
+    border-radius: 1rem;
+    border: #3882F6 solid 4px;
+}
+
+.info-item-text {
+    width: 150px;
+    font-weight: 300;
+    text-align: center;
 }
