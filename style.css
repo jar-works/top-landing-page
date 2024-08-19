@@ -22,6 +22,10 @@ body {
 
 /* END BOILERPLATE CODE*/
 
+a {
+    text-decoration: none;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -35,10 +39,9 @@ body {
 }
 
 .nav-links li a {
-    text-decoration: none;
     color: #F9FAF8;
 }
 
-.header {
+.header a {
     color: #F9FAF8;
 }
