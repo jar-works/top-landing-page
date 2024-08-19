@@ -1,0 +1,23 @@
+/* 
+    Found this boilerplate code online and I liked some of the properties
+    Especially font-size: 62.5%; which allows you to use rem a lot easier.
+*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+/* END BOILERPLATE CODE*/
