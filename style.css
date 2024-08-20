@@ -209,3 +209,16 @@ a {
 .cta-box-text {
     font-size: 1.4rem;
 }
+
+.footer {
+    background-color: #1F2937;
+    height: 75px;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
